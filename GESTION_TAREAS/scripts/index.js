@@ -19,7 +19,9 @@ document.addEventListener('DOMContentLoaded',()=>{
 
         const valueTask=document.getElementById('new-task').value;
         let count=localStorage.length;
+
         console.log(count);
+        
         const object=new newTask(`task${count+=1}`,valueTask);
         object.addTask();
 
