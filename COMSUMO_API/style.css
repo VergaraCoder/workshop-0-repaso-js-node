@@ -1,0 +1,12 @@
+.mejor {
+    background-color: gray;
+    padding: 20px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+#post-list{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}

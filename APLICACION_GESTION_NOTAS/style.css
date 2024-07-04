@@ -1,0 +1,18 @@
+#update-not{
+    display: none;
+}
+
+.hello{
+    background-color: rgba(219, 19, 19, 0.318);
+    color: white;
+}
+
+.list{
+    display: flex;
+    flex-direction: column;
+}
+
+.list li{
+    padding: 30px;
+    width: 50%;
+}
